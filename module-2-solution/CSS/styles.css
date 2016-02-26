@@ -1,0 +1,140 @@
+/*
+* @file         styles.css
+* @version    	1.0
+* @date		     24/02/2016
+*
+* CSS Styles for module 2 coding assignment
+* on Coursera Course HTML, CSS, and Javascript for Developers
+*/
+@charset "UTF-8";
+
+
+/********** Base styles **********/
+/** HEADER **/
+#header-title {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.header-title {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header-title h1 { /*Our Menu */
+  font-family: 'Oxigen', sans-serif;
+  color: #0e122e;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+/* END HEADER */
+
+h1 {
+  text-align: center;
+  text-decoration-color: black;
+  -moz-text-decoration-color: black;
+}
+
+p {
+  padding: 15px;
+  background: #6c6e6a;
+
+}
+
+body {
+  font-size: 14px;
+  margin: 20px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+
+.title, h2{
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 100%;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	width: 35%;
+	border-top: none;
+	border-right: none;
+	float:right;
+	border-width: 1px;
+
+}
+
+.title_pink {
+  background-color: #ee9ef0;
+}
+
+.title_red {
+  background-color: #ff4f44;
+  color: white;
+}
+
+.title_yellow {
+  background-color: #d2e944;
+}
+
+article {
+  background-color: #6c6e6a;
+  color: #161210 ;
+  display: inline-block;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 20px;
+  margin: 5px;
+  text-decoration-color: black;
+  -moz-text-decoration-color: black;
+
+}
+/********** Desktop version **********/
+@media (min-width: 992px) {
+
+  div.container {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+
+
+}
+
+/********** Tablet view**********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .article-md-1 {
+    margin: 10px;
+    width: 47%;
+    margin-right: auto;
+
+  }
+  .article-md-2 {
+    margin: 10px;
+    float:right;
+    width: 47%;
+  }
+  .article-md-3 {
+    clear:both;
+    margin: 10px;
+    margin-top: 20px;
+  }
+
+  .title_yellow {
+    width: 17%;
+  }
+
+/********** Mobile view**********/
+body{
+  margin: 40px;
+  margin-top: 30px;
+}
