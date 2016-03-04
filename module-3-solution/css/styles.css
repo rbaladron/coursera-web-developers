@@ -1,0 +1,73 @@
+/*
+* @file         styles.css
+* @version    	1.0
+* @date		     04/03/2016
+*
+* CSS Styles for module 3 coding assignment
+* on Coursera Course HTML, CSS, and Javascript for Developers
+*/
+@charset "UTF-8";
+
+body{
+	background-color: #E5EDE8;
+}
+footer {
+	margin-top: 20px;
+}
+/** HEADER **/
+#header-nav {
+	border-radius:0;
+	border: 0;
+}
+
+
+#nav-list{
+	margin-top: 10px;
+
+}
+
+#nav-list a{
+	color: #4a596c;
+	text-align: center;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+
+#nav-list a:hover, a:focus{
+	color: #df2568;
+
+}
+#nav-list a:visited {
+	color: #1a5952;
+}
+
+#header{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.card-header{
+	text-align: center;
+}
+
+.card{
+	background-color: #c9d2cc;
+
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: justify;
+	text-indent: 25px;
+}
+
+/** Section links**/
+#enlace a{
+	color: #df2568;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+#enlace a:hover, a:focus{
+	color: #df2568;
+
+}
